@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="todo-container">
+		<div id="todo-input">
+			<i class="fas fa-clipboard-list fa-lg"></i>
+			<input id="user-input" type="text" placeholder="Type your todo list">
+			<button class="hide"><i id="add-btn" class="fas fa-plus-circle fa-lg"></i></button>
+			
+		</div>
+		<div id="complete-all-task">
+			<i id="cmp-all-logo" class="fas fa-check-double color"></i>
+			<p id="cmp-all-tsk"> Complete all tasks </p>
+			<p id="clr-cmp"> Clear Completed </p>
+		</div>
+		
+		<hr>
+
+		<div id="todo-items">
+			<form>
+				<!-- <input type="checkbox"> Wake up at 5am <br>
+				<input type="checkbox"> Learn how to use Vue.js <br>
+				<input type="checkbox"> Drink coffee <i class="far fa-times-circle"></i><br> -->
+			</form>
+		</div>
+		<hr>
+		<p id="tsk-lft"><span id="tsk-lft-cnt">0</span> tasks left</p>
+		<p id="all">All</p>
+		<p id="un-cmp">Uncomplete</p>
+		<p id="cpm">Completed</p>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

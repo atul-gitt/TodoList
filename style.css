@@ -1,0 +1,74 @@
+body {
+	font-family: monospace;
+}
+#todo-container {
+	padding: 5px;
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 5px grey;
+}
+
+#todo-input {
+	padding: 10px;
+	background-color: lightgrey;
+	border-radius: 5px;
+}
+
+#todo-input input {
+	width: 330px;
+	margin-left: 5px;
+	font-size: 1.33em;
+	outline: none;
+	border: none;
+	background-color: lightgrey;
+}
+
+.hide {
+	display: none;
+}
+button {
+	outline: none;
+	border: none;
+	background-color: lightgrey;
+}
+
+#complete-all-task {
+	display: inline-block;
+	margin: 10px 5px 5px 0px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.7rem;
+	display: inline;
+	color: grey;
+}
+
+.color {
+	color: grey;
+}
+
+#clr-cmp {
+	margin-left: 150px;
+}
+
+#todo-items {
+	font-weight: bold;
+	font-size: 1.33em;
+}
+
+span {
+	color: black;
+}
+#all {
+	margin-left: 150px;
+}
+
+.place-icon {
+	margin-top: 5px;
+	position: absolute;
+	right: 15px; 
+	cursor: pointer;
+}
